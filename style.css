@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#counter,
+.info {
+  color: black;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+#gameBoard {
+  margin: 20px;
+}
+
+#row {
+  width: 420px;
+  height: 20px;
+  display: flex;
+}
+
+#el {
+  width: 20px;
+  height: 20px;
+  /* border: 0.5px solid black; */
+}
+
+#wall {
+  background-image: url(snake.png);
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeHeadU {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -60px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeHeadD {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -80px -20px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeHeadR {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -80px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeHeadL {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -60px -20px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyHorizontally {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -20px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyVertically {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -40px -20px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyDtoL {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -40px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyDtoR {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyUtoL {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -40px -40px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeBodyUtoR {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: 0px -20px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeTailU {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -60px -40px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeTailD {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -80px -60px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeTailR {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -80px -40px;
+  width: 20px;
+  height: 20px;
+}
+
+#snakeTailL {
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: -60px -60px;
+  width: 20px;
+  height: 20px;
+}
+
+#apple {
+  /* background-color: red; */
+  background-image: url(snake.png);
+  background-size: 100px;
+  background-position: 0px -60px;
+  width: 20px;
+  height: 20px;
+}
