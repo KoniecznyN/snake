@@ -30,7 +30,7 @@ This repository contains a browser-based **Snake game** developed as part of a s
 
 3.  Open the index.html file in your web browser.
 
-💡 Tip: If your browser restricts local file access for JavaScript, consider using a simple HTTP server like Live Server in VS Code or Python's built-in server:
+    💡 Tip: If your browser restricts local file access for JavaScript, consider using a simple HTTP server like Live Server in VS Code or Python's built-in server:
 
     ```bash
     python -m http.server
