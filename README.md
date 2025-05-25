@@ -20,12 +20,12 @@ This repository contains a browser-based **Snake game** developed as part of a s
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/KoniecznyN/snake-school-project.git
+    git clone https://github.com/KoniecznyN/snake.git
     ```
 2.  Navigate into the project directory:
 
     ```bash
-    cd snake-school-project
+    cd snake
     ```
 
 3.  Open the index.html file in your web browser.
